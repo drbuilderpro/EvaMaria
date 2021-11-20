@@ -675,7 +675,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"(<b></b> <a href='tg://user?id={from_user.id}'><b>{name}</b></a>\n", Here is what i found for your query {search}"
+        cap = f"(<b></b> <a href='tg://user?id={from_user.id}'><b>{first_name}</b></a>\n", Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
