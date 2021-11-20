@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('➕ Join 🦷 Dental Case Study ➕', url='http://t.me/dental_case_study')
             ],[
-            InlineKeyboardButton('🎁Donate & Support🎁', url='http://t.me/dental_backup')
+            InlineKeyboardButton('🎁Donate & Support🎁', url='http://t.me/dental_backup/180')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         disable_web_page_preview=True
