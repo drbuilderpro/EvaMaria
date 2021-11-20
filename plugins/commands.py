@@ -53,9 +53,9 @@ async def start(client, message):
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
-            disable_web_page_preview='true',
-            parse_mode='html',
             
+            parse_mode='html',
+            disable_web_page_preview=True
         )
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
