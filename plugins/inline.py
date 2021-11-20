@@ -92,8 +92,11 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
-        ]
-        ]
+        ][
+            InlineKeyboardButton('🦷Case Study💡', url="https://t.me/dental_case_study"),
+        ][  
+            InlineKeyboardButton('👥 Case Discussion 🧑‍💻', url='https://t.me/dent_tech_for_u')
+        ]]
     return InlineKeyboardMarkup(buttons)
 
 
