@@ -55,7 +55,7 @@ async def start(client, message):
             reply_markup=reply_markup,
             disable_web_page_preview='true',
             parse_mode='html',
-            disable_web_page_preview=True
+            
         )
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
