@@ -340,11 +340,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [
                         InlineKeyboardButton(
-                            text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{act}"
+                            text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{act}
                         )
-                        InlineKeyboardButton
+                        
                         (
-                            'Developers', url="https://t.me/CrazyBotsz"
+                            'Developers', url="https://t.me/CrazyBotsz""
                         )
                     ]
                 )
