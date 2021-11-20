@@ -105,7 +105,7 @@ async def start(client, message):
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup, disable_web_page_preview=True,
             parse_mode='html',
-            disable_web_page_preview=True
+            
         )
         return
     file_id = message.command[1]
