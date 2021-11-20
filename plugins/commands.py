@@ -79,7 +79,7 @@ async def start(client, message):
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(btn),
-            disable_web_page_preview=True
+            
             parse_mode="markdown",
             
             )
