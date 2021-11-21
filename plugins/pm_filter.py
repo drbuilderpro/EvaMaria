@@ -431,17 +431,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption
-            
-                reply_markup=InlineKeyboardMarkup(
+            parse_mode="html",
+            reply_markup=InlineKeyboardMarkup(
+                [
                     [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Developers', url="https://t.me/CrazyBotsz"
-                                )
-                        ]
+                        InlineKeyboardButton
+                            (
+                                'Developers', url="https://t.me/CrazyBotsz"
+                            )
                     ]
-                )
+                ]
+            )
 
                   
                         
