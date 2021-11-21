@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/search_dentalbooks_bot> 📚Dent Tech 🔎 Librarian🧚‍♀</a>, I 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 YOU AVAILABLE DENTAL REFERENCES FREE, JOIN 𝙾𝚄𝚁 <a href='https://t.me/dent_tech_for_books'> 📚SUPPORT 🔎 GROUP🧚‍♀</a> 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/search_dentalbooks_bot> 📚𝙳𝚎𝚗𝚝 𝚃𝚎𝚌𝚑 🔎 𝙻𝚒𝚋𝚛𝚊𝚛𝚒𝚊𝚗🧚‍♀</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝚈𝙾𝚄 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙳𝙴𝙽𝚃𝙰𝙻 𝚁𝙴𝙵𝙴𝚁𝙴𝙽𝙲𝙴𝚂 𝙵𝚁𝙴𝙴, 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 <a href='https://t.me/dent_tech_for_books'> 📚 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🔎 𝙶𝚁𝙾𝚄𝙿 🧚‍♀ ♀</a> 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -71,9 +71,7 @@ these are the extra features of Eva Maria
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• /info  - <code>get information about a user.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
