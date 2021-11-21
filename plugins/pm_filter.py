@@ -340,11 +340,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [
                         InlineKeyboardButton(
-                            text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{act}"
-                        
-                        
-                        
-                       
+                            text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{act}"                                                                                      
                         )
                     ]
                 )
@@ -427,7 +423,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         await query.answer()
-        await client.send_cached_media(
+        await update.send_cached_media(
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption
@@ -441,20 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             )
                     ]
                 ]
-            )
-
-                  
-                        
-                          
-                                
-                                    
-
-
-
-                
-        )
-            
-
+            )       
+        )           
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
