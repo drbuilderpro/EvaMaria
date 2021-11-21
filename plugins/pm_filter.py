@@ -428,11 +428,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id,
             caption=f_caption
                 [
-                    InlineKeyboardButton
-                        (
-                            'Developers', url="https://t.me/CrazyBotsz"
-                        )
-                    
+                    InlineKeyboardButton('➕ Join 🦷 Discussion Group ➕', url='http://t.me/dent_tech_for_u')           
                 ]
             )                  
     elif query.data == "pages":
