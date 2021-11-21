@@ -427,10 +427,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption
-                [
-                    InlineKeyboardButton('➕ Join 🦷 Discussion Group ➕', url='http://t.me/dent_tech_for_u')           
-                ]
-            )                  
+            )
+         
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
