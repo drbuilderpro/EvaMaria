@@ -51,7 +51,7 @@ async def give_filter(client,message):
                              ],[
                              InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
                          ]]
-                            button = eval(btn)
+                            
                             await message.reply_text(
                                 reply_text,
                                 disable_web_page_preview=True,
