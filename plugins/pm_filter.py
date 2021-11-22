@@ -57,12 +57,12 @@ async def give_filter(client,message):
                                 disable_web_page_preview=True,
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
-                    elif btn == "[]":
-                                     buttons= [[
-                                          InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
-                                          ],[
-                                          InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
-                                     ]] 
+                        elif btn == "[]":
+                                        buttons= [[
+                                        InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
+                                        ],[
+                                        InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
+                        ]] 
                         await message.reply_cached_media(
                             fileid,
                             caption=reply_text or ""
