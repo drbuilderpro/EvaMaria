@@ -46,11 +46,11 @@ async def give_filter(client,message):
                         if btn == "[]":
                             await message.reply_text(reply_text, disable_web_page_preview=True)
                         else:
-                           buttons= [[
-                             InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
-                             ],[
-                             InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
-                         ]]
+                            buttons= [[
+                                 InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
+                                 ],[
+                                 InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
+                            ]]
                             
                             await message.reply_text(
                                 reply_text,
@@ -67,7 +67,7 @@ async def give_filter(client,message):
                              InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
                              ],[
                              InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
-                         ]]
+                        ]]
                        
                         await message.reply_cached_media(
                             fileid,
