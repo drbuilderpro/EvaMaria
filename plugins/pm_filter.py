@@ -58,6 +58,11 @@ async def give_filter(client,message):
                             caption=reply_text or ""
                         )
                     else:
+                        buttons= [[
+                             InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books')
+                             ],[
+                             InlineKeyboardButton('🤖 Updates', url='https://t.me/dent_tech_for_books'),
+                         ]]
                         button = eval(btn) 
                         await message.reply_cached_media(
                             fileid,
